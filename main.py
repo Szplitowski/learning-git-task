@@ -11,3 +11,10 @@ for keys in lista.keys():
 
 for keys, values in lista.items():
   produkty.append(values)
+
+print("Lista zakupów:")
+
+for i in range (0,2):
+  print(f"Idę do {sklepy[i]}, kupuję tu następujące rzeczy:{produkty[i]}")
+
+print(f"W sumie kupuję {len(produkty[0])+len(produkty[1])} produktów")
