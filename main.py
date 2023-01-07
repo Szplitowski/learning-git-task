@@ -2,7 +2,6 @@ lista = {
     "piekarnia": ["chleb", "pączek", "bułki"],
     "warzywniak": ["marchew", "seler", "rukola"]
 }
-
 sklepy = []
 produkty = []
 a0 = []
